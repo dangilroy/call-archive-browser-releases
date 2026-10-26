@@ -163,9 +163,9 @@ Updates are automatic:
 1. Each time the app starts, it checks this repository for a newer release.
 2. If there is one, it downloads it in the background and checks it against the release's
    SHA-256 checksum. You can keep working while this happens.
-3. When it's ready, a green **vX ready — restart now** button appears in the toolbar. Click it
-   to restart into the new version straight away, or just carry on: the update installs itself
-   when you close the app, and the next time you open it you're on the new version.
+3. A green **Update available** button appears in the toolbar (hover over it to see the version).
+   Click it to restart into the new version straight away, or just carry on: the update installs
+   itself when you close the app, and the next time you open it you're on the new version.
 
 Your settings and indexes are kept. If anything goes wrong (no connection, a failed checksum),
 the current version simply carries on.
